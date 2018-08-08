@@ -156,6 +156,7 @@ fbq('track', 'PageView');
 
 	<!--include header ici-->
 <?php include('header.php'); ?>
+
 	<div id="fh5co-wrapper">
 		<div id="fh5co-page">
 			<div class="header-top">
@@ -352,7 +353,7 @@ fbq('track', 'PageView');
 
 						</tr>
 					</table>
-					
+
 					<!-- fh5co-content-section -->
 
 					<div id="fh5co-blog-section" class="fh5co-section-gray">
