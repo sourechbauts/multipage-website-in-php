@@ -25,11 +25,11 @@
       <!-- START #fh5co-menu-wrap -->
       <nav id="fh5co-menu-wrap" role="navigation">
         <ul class="sf-menu" id="fh5co-primary-menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="action.html">Action</a></li>
-          <li><a href="parents.html">Parents du Monde</a></li>
-          <li><a href="blog.html">Entreprise</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="action.php">Action</a></li>
+          <li><a href="parentsDon.php">Parents du Monde</a></li>
+          <li><a href="entreprise.php">Entreprise</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </div>

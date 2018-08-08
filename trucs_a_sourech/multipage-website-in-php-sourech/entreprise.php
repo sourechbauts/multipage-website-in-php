@@ -66,54 +66,7 @@
 	<![endif]-->
 
 	</head>
-<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Nos Petits Orphelins</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
-	<meta http-equiv="Pragma" content="no-cache">
-	<meta http-equiv="Content-Language" content="fr">
-	<meta http-equiv="ImageToolbar" content="no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Stichting Onze Kleine Weeskinderen<br>Fondation Nos Petits Orphelins">
-	<meta name="robots" content="all">
-	<meta name="description" content="S’occupe d'orphelins et d'enfants abandonnés en Amérique Latine et aux Caraïbes depuis 1954.">
-	<meta name="keywords" content="">
-	<meta name="msvalidate.01" content="00AC6EE6C37400211837EE6B3CB5E054">
-	<meta name="sitelock-site-verification" content="6701">
-	<meta name="theme-color" content="#ffffff">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="//www.nph-belgium.org/ws/images/favicon/ms-icon-144x144.png">
-    <meta name="google-site-verification" content="7By2QHKsPzcn7V-QhW-T0mbT4RmY9ZdHfFUz_lP32Jw" />
-
-	<meta property="fb:app_id" content="344417018923133">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://www.nph-belgium.org/entreprise?lang=fr&lang=fr">
-	<meta property="og:locale" content="fr_FR">
-	<meta property="og:title" content="Nos Petits Orphelins">
-	<meta property="og:description" content="S’occupe d'orphelins et d'enfants abandonnés en Amérique Latine et aux Caraïbes depuis 1954.">
-	<meta property="og:image" content="//www.nph-belgium.org/ws/images/pictures/nphi.jpg">
-
-	<base href="https://www.nph-belgium.org/ws/" target="_self"></base>
-
-	<link rev="made" href="mailto:info@nph-belgium.org">
-	<link rel="apple-touch-icon" sizes="180x180" href="//www.nph-belgium.org/ws/images/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="//www.nph-belgium.org/ws/images/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="//www.nph-belgium.org/ws/images/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="//www.nph-belgium.org/ws/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="//www.nph-belgium.org/ws/images/favicon/favicon-16x16.png">
-	<link rel="icon" type="image/png" href="//www.nph-belgium.org/favicon.png">
-	<link rel="manifest" href="//www.nph-belgium.org/ws/images/favicon/manifest.json">
-	<link rel="stylesheet" type="text/css" href="//www.nph-belgium.org/ws/scripts/styles/belgium.015/content.css">
-	<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">-->
-
-
-	<!-- Modernizr JS -->
+<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 <!--</head>-->
 <script src="https://www.nph-belgium.org/ws/scripts/client/cookies.js" type="text/javascript"></script>
@@ -411,7 +364,10 @@ fbq('track', 'PageView');
 			runletter.location.href = "https://www.nph-belgium.org/ws/include/newsletter-submit.php?host=nph-belgium.org&email=" + newsletter.email.value + "&pop=" + pop;
 		}
 	</script>
+
+<!-- le footer est ici -->
 	<?php include ('footer.php'); ?>
+
 	<iframe name="runletter" width="0" height="0" style="display:none"></iframe>
 
 

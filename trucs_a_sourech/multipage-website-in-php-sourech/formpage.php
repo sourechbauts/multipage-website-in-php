@@ -210,6 +210,8 @@ fbq('track', 'PageView');
             </div>
         </div>
     </div>
+    <!-- le footer est ici -->
+  		<?php include ('footer.php'); ?>
 </body>
 
 </html>
