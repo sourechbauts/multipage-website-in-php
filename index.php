@@ -303,7 +303,7 @@ fbq('track', 'PageView');
 					<br />
 					<br />
 
-					<table cellpadding="0" cellspacing="0" width="100%">
+					<!--<table cellpadding="0" cellspacing="0" width="100%">
 						<tr>
 							<td align="center" width="265" onMouseOver="document.getElementById('vrschl1').style.backgroundColor='orange'; style.cursor='pointer'" onMouseOut="document.getElementById('vrschl1').style.backgroundColor='#558ED5'" onClick="self.location.href='https://www.nph-belgium.org/ws/help/17/action.php?lang=fr'">
 								<img src="https://www.nph-belgium.org/ws/images/pictures/articles/belgium/verschil1.jpg" style="border-top-left-radius:5px; border-top-right-radius:5px; width:265px;"><br>
@@ -352,7 +352,7 @@ fbq('track', 'PageView');
 							</td>
 
 						</tr>
-					</table>
+					</table>-->
 
 					<!-- fh5co-content-section -->
 
