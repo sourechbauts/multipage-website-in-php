@@ -303,57 +303,7 @@ fbq('track', 'PageView');
 					<br />
 					<br />
 
-					<!--<table cellpadding="0" cellspacing="0" width="100%">
-						<tr>
-							<td align="center" width="265" onMouseOver="document.getElementById('vrschl1').style.backgroundColor='orange'; style.cursor='pointer'" onMouseOut="document.getElementById('vrschl1').style.backgroundColor='#558ED5'" onClick="self.location.href='https://www.nph-belgium.org/ws/help/17/action.php?lang=fr'">
-								<img src="https://www.nph-belgium.org/ws/images/pictures/articles/belgium/verschil1.jpg" style="border-top-left-radius:5px; border-top-right-radius:5px; width:265px;"><br>
-								<table cellpadding="0" cellspacing="0">
-									<tr>
-										<td id="vrschl1" style="background-color:#558ED5; color:#FFFFFF" align="center" width="265" height="80">
-											<img src="https://www.nph-belgium.org/ws/images/icons/belgium/action-dblue.png" style="width:50px; position:relative; left:20px; top:5px;" align="left">
-											<b>J'ORGANISE<br>UNE ACTION</b>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td align="center" width="265" onMouseOver="document.getElementById('vrschl2').style.backgroundColor='orange'; style.cursor='pointer'" onMouseOut="document.getElementById('vrschl2').style.backgroundColor='#E46C0A'" onClick="">
-								<img src="https://www.nph-belgium.org/ws/images/pictures/articles/belgium/verschil2.jpg" style="border-top-left-radius:5px; border-top-right-radius:5px; width:265px;"><br>
-								<table cellpadding="0" cellspacing="0">
-									<tr>
-										<td id="vrschl2" style="background-color:#E46C0A; color:#FFFFFF" align="center" width="265" height="80">
-											<img src="https://www.nph-belgium.org/ws/images/icons/belgium/sponsorship-dblue.png" style="width:50px; position:relative; left:10px; top:10px;" align="left">
-											<b>JE DEVIENS<br>PARENT DU MONDE</b>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td align="center" width="265" onMouseOver="document.getElementById('vrschl3').style.backgroundColor='orange'; style.cursor='pointer'" onMouseOut="document.getElementById('vrschl3').style.backgroundColor='#82B000'" onClick="self.location.href='https://www.nph-belgium.org/ws/help/17/enterprise.php?lang=fr'">
-								<img src="https://www.nph-belgium.org/ws/images/pictures/articles/belgium/verschil3.jpg" style="border-top-left-radius:5px; border-top-right-radius:5px; width:265px;"><br>
-								<table cellpadding="0" cellspacing="0">
-									<tr>
-										<td id="vrschl3" style="background-color:#82B000; color:#FFFFFF" align="center" width="265" height="80">
-											<img src="https://www.nph-belgium.org/ws/images/icons/belgium/company-dblue.png" style="width:50px; position:relative; left:20px; top:5px;" align="left">
-											<b>JE MOBILISE<br>MON ENTREPRISE</b>
-										</td>
-									</tr>
-								</table>
-							</td>
-							<td align="center" width="265" onMouseOver="document.getElementById('vrschl4').style.backgroundColor='orange'; style.cursor='pointer'" onMouseOut="document.getElementById('vrschl4').style.backgroundColor='#FF6699'" onClick="self.location.href='https://www.nph-belgium.org/ws/volunteers/17/index.php?lang=fr'">
-								<img src="https://www.nph-belgium.org/ws/images/pictures/articles/belgium/verschil4.jpg" style="border-top-left-radius:5px; border-top-right-radius:5px; width:265px;"><br>
-								<table cellpadding="0" cellspacing="0">
-									<tr>
-										<td id="vrschl4" style="background-color:#FF6699; color:#FFFFFF" align="center" width="265" height="80">
-											<img src="https://www.nph-belgium.org/ws/images/icons/belgium/volunteer-dblue.png" style="width:50px; position:relative; left:20px;" align="left">
-											<b>JE DEVIENS<br>VOLONTAIRE</b>
-											<br><b>JE CONTACTE</b>
-										</td>
-									</tr>
-								</table>
-							</td>
-
-						</tr>
-					</table>-->
-
+				
 					<!-- fh5co-content-section -->
 
 					<div id="fh5co-blog-section" class="fh5co-section-gray">
