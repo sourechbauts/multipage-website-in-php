@@ -1,5 +1,9 @@
-<!DOCTYPE
+<!DOCTYPE html>
 <html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,19 +15,16 @@
 
   <!--
 	//////////////////////////////////////////////////////
-
 	FREE HTML5 TEMPLATE
 	DESIGNED & DEVELOPED by FREEHTML5.CO
-
 	Website: 		http://freehtml5.co/
 	Email: 			info@freehtml5.co
 	Twitter: 		http://twitter.com/fh5co
 	Facebook: 		https://www.facebook.com/fh5co
-
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration
+  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -32,7 +33,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />-->
+	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/favicon.jpg">
@@ -62,6 +63,14 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	</head>
+<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+<!--</head>-->
+<script src="https://www.nph-belgium.org/ws/scripts/client/cookies.js" type="text/javascript"></script>
+<script src="https://www.nph-belgium.org/ws/scripts/client/functions-new-170606A.js" type="text/javascript"></script>
+
+<script src="https://www.nph-belgium.org/ws/scripts/client/helptips.js" type="text/javascript"></script>
 <script src="//code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js" type="text/javascript"></script>
 <script src="//apis.google.com/js/plusone.js" type="text/javascript">{lang: 'fr'}</script>
@@ -94,7 +103,6 @@
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-30066843-1']);
 	_gaq.push(['_trackPageview']);
-
 	(function() {
 		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -114,13 +122,30 @@ s.parentNode.insertBefore(t,s)}(window,document,'script',
 fbq('init', '509269365908464');
 fbq('track', 'PageView');
 </script>
-
-
-</head>
-
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=509269365908464&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<!--<script id="cookieinfo"
+	src="//cookieinfoscript.com/js/cookieinfo.min.js"
+	data-bg="#00468B"
+	data-fg="#FFFFFF"
+	data-link="#F47B39"
+	data-text-align="left"
+	data-close-text="OK"
+	data-message="<font color='#FFFFFF'>Nous utilisons des cookies pour faciliter votre navigation et pour mieux adapter le contenu de notre site à vos besoins et préférences.</font><br>"
+	data-linkmsg="Plus d'information"
+	data-moreinfo="contact/privacy.php">
+</script>-->
 
 <body>
-	<script>
+				</td>
+			</tr>
+		</table>
+
+					</table>			</td>
+		</tr>
+	</table>		<script>
 			adjustOnResize();
 		</script>
 
@@ -235,7 +260,72 @@ fbq('track', 'PageView');
 							</tr>
 						</table>
 
-
+						<!-- PAGE CONTENT END -->
+								<!--<p>&nbsp;</p>
+		<p><hr></p>
+		<table width="100%" cellpadding="10">
+			<tr>
+				<td>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="nphi" data-lang="fr">Tweeter</a>
+					<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+					<img src="images/space.gif" width="20">
+					<a href="https://twitter.com/nphi" class="twitter-follow-button" data-show-count="true">Follow @nphi</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					<img src="images/space.gif" width="20">
+					<g:plusone size="medium"></g:plusone>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="fb-like" data-href="https://www.nph-belgium.org/entreprise?lang=fr&lang=fr" data-width="600" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="fb-follow" data-href="https://www.facebook.com/FondationNosPetitsOrphelins" data-width="600" data-layout="standard" data-size="small" data-show-faces="true"></div>
+				</td>
+			</tr>
+			<tr><td>&nbsp;</td></tr>
+		</table>					</td>
+					<!--<td class="rigcol" id="rigcol" align="center" style="position:relative; top:50px">
+							<table class="darkblue-box">
+		<tr>
+			<td colspan="2" class="darkblue-box-title">
+				Mobilisez-vous			</td>
+		</tr>
+		<tr>
+			<td class="darkblue-box-content">
+				<ul>
+					<li class="white">
+						<a href="help/17/index.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Faites un don</a>
+					</li>
+					<li class="white">
+						<a href="help/17/sponsorship.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Devenez Parent du Monde</a>
+					</li>
+					<li class="white">
+						<a href="help/17/action.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Organisez une action</a>
+					</li>
+					<li class="white">
+						<a href="help/17/enterprise.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Mobilisez votre entreprise</a>
+					</li>
+					<li class="white">
+						<a href="volunteers/17/index.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Devenez volontaire</a>
+					</li>
+					<li class="white">
+						<a href="store/cards/ecards.php?lang=fr" class="white" style="text-decoration:none" onMouseOver="style.textDecoration='underline'" onMouseOut="style.textDecoration='none'">Envoyez une E-card gratuite</a>
+					</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+			</td>
+		</tr>-->
 
 		<tr>
 			<td id="rigcol_bottom" align="center" style="display:none">
