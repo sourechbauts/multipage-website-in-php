@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +23,7 @@
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration -->
+  	<!-- Facebook and Twitter integration
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -35,7 +32,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" />-->
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/favicon.jpg">
@@ -65,14 +62,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-<!--</head>-->
-<script src="https://www.nph-belgium.org/ws/scripts/client/cookies.js" type="text/javascript"></script>
-<script src="https://www.nph-belgium.org/ws/scripts/client/functions-new-170606A.js" type="text/javascript"></script>
-
-<script src="https://www.nph-belgium.org/ws/scripts/client/helptips.js" type="text/javascript"></script>
 <script src="//code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js" type="text/javascript"></script>
 <script src="//apis.google.com/js/plusone.js" type="text/javascript">{lang: 'fr'}</script>
@@ -124,152 +113,19 @@ s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '509269365908464');
 fbq('track', 'PageView');
-
 </script>
-<noscript>
-<img height="1" width="1" src="https://www.facebook.com/tr?id=509269365908464&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-<!--<script id="cookieinfo" src="//cookieinfoscript.com/js/cookieinfo.min.js" data-bg="#00468B" data-fg="#FFFFFF" data-link="#F47B39" data-text-align="left" data-close-text="OK" data-message="<font color='#FFFFFF'>Nous utilisons des cookies pour faciliter votre navigation et pour mieux adapter le contenu de notre site à vos besoins et préférences.</font><br>" data-linkmsg="Plus d'information" data-moreinfo="contact/privacy.php">
 
 
-</script>-->
-
-<script>
-    var euro = String.fromCharCode(8364);
-
-    function selectPay(nr) {
-        document.getElementById('pay' + nr).checked = true;
-    }
-
-    function selectWithdraw() {
-        document.getElementById('banktr').style.display = document.getElementById('pay3').checked ? "" : "none";
-    }
-
-    function checkAnders() {
-        document.getElementById('kanders').style.display = sponsorship.knowus.value == 'other' ? "" : "none";
-        if (sponsorship.knowus.value == 'other')
-            sponsorship.kentanders.focus();
-    }
-
-    function goSubmit() {
-        if (!document.getElementById('cnty1').checked && !document.getElementById('cnty2').checked) {
-            alert('S\'il vous pla\u00EEt indiquer votre pr\u00E9f\u00E9rence pour le pays.');
-            document.getElementById('cnty1').focus();
-            return;
-        }
-        if (document.getElementById('cnty2').checked && !sponsorship.othercountry.value) {
-            alert('S\'il vous pla\u00EEt indiquer votre pr\u00E9f\u00E9rence pour l\'autre pays.');
-            sponsorship.othercountry.focus();
-            return;
-        }
-        if (!document.getElementById('gend1').checked && !document.getElementById('gend2').checked && !document.getElementById('gend3').checked) {
-            alert('S\'il vous pla\u00EEt indiquer votre pr\u00E9f\u00E9rence pour le sexe.');
-            document.getElementById('gend1').focus();
-            return;
-        }
-        if (!document.getElementById('age1').checked && !document.getElementById('age2').checked && !document.getElementById('age3').checked) {
-            alert('S\'il vous pla\u00EEt indiquer votre pr\u00E9f\u00E9rence pour l\'\u00E2ge.');
-            document.getElementById('age1').focus();
-            return;
-        }
-        if (!document.getElementById('salutF').checked && !document.getElementById('salutM').checked) {
-            alert('S\'il vous pla\u00EEt remplir le salut.');
-            document.getElementById('salutF').focus();
-            return;
-        }
-        if (!sponsorship.lastname.value) {
-            alert('S\'il vous pla\u00EEt remplir votre nom.');
-            sponsorship.lastname.focus();
-            return;
-        }
-        if (!sponsorship.firstname.value) {
-            alert('S\'il vous pla\u00EEt remplir votre pr\u00E9nom.');
-            sponsorship.firstname.focus();
-            return;
-        }
-        if (!sponsorship.street.value) {
-            alert('S\'il vous pla\u00EEt remplir votre rue.');
-            sponsorship.street.focus();
-            return;
-        }
-        if (!sponsorship.zip.value) {
-            alert('S\'il vous pla\u00EEt remplir votre code postal et localit\u00E9.');
-            sponsorship.zip.focus();
-            return;
-        }
-        if (!sponsorship.country.value) {
-            alert('S\'il vous pla\u00EEt remplir votre pays.');
-            sponsorship.country.focus();
-            return;
-        }
-        if (!sponsorship.phone.value) {
-            alert('S\'il vous pla\u00EEt indiquer votre t\u00E9l\u00E9phone.');
-            sponsorship.phone.focus();
-            return;
-        }
-        if (!sponsorship.email.value) {
-            alert('S\'il vous pla\u00EEt remplir votre bo\u00EEte email.');
-            sponsorship.email.focus();
-            return;
-        }
-        if (!sponsorship.dob.value) {
-            alert('S\'il vous pla\u00EEt indiquer votre date de naissance.');
-            sponsorship.dob.focus();
-            return;
-        }
-        if (!document.getElementById('pay1').checked && !document.getElementById('pay2').checked) {
-            alert('S\'il vous pla\u00EEt indiquer votre engagement.');
-            document.getElementById('pay1').focus();
-            return;
-        }
-        if (document.getElementById('pay2').checked && ((!sponsorship.otheramount.value) || (sponsorship.otheramount.value == euro + ' ') || (sponsorship.otheramount.value == euro))) {
-            alert('S\'il vous pla\u00EEt remplir vos frais mensuels.');
-            sponsorship.otheramount.focus();
-            return;
-        }
-        if (document.getElementById('pay3').checked && !sponsorship.account.value) {
-            alert('S\'il vous pla\u00EEt indiquer votre IBAN.');
-            sponsorship.account.focus();
-            return;
-        }
-        if (document.getElementById('pay3').checked && !sponsorship.startmonth.value) {
-            alert('S\'il vous pla\u00EEt remplir le mois.');
-            sponsorship.startmonth.focus();
-            return;
-        }
-        if (document.getElementById('pay3').checked && !sponsorship.startyear.value) {
-            alert('S\'il vous pla\u00EEt remplir l\'ann\u00E9e.');
-            sponsorship.startyear.focus();
-            return;
-        }
-        document.getElementById('sndbtn').style.display = "none";
-        document.getElementById('brochureloader').style.display = "";
-        sponsorship.submit();
-    }
-
-</script>
+</head>
 
 
 <body>
+	<script>
+			adjustOnResize();
+		</script>
 
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.9";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-    </script>
-
-
-
-    <!--include header ici-->
-  <?php include('partials/header.php'); ?>
+	<!--include header ici-->
+<?php include('partials/headerFinal.php'); ?>
 
     <table id="wholepage" cellpadding="0" cellspacing="0" width="100%" style="padding-top:95px;">
         <tr>
@@ -611,40 +467,15 @@ fbq('track', 'PageView');
             </td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-        </tr>
+					<tr><td>&nbsp;</td></tr>
+		</table>
 
-    </table>
-    <script>
-        function newsLetterGo(pop) {
-            if (newsletter.email) newsletter.email.disabled = true;
-            if (newsletter.nwsbtn) newsletter.nwsbtn.disabled = true;
-            runletter.location.href = "https://www.nph-belgium.org/ws/include/newsletter-submit.php?host=nph-belgium.org&email=" + newsletter.email.value + "&pop=" + pop;
-        }
+<!-- le footer est ici -->
+	<?php include ('partials/footer2.php'); ?>
 
-    </script>
+		</tr>
 
 
-<!--le footer est ici-->
-    <?php include ('partials/footer2.php'); ?>
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {},
-            Tawk_LoadStart = new Date();
-        (function() {
-            var s1 = document.createElement("script"),
-                s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/59de453e4854b82732ff4f75/default';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-
-    </script>
-    <!--End of Tawk.to Script-->
 
 </body>
-
 </html>

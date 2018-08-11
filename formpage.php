@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +23,7 @@
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration -->
+  	<!-- Facebook and Twitter integration
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -35,7 +32,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" />-->
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/favicon.jpg">
@@ -57,7 +54,7 @@
 	<link rel="stylesheet" type="text/css" href="content.css">
 	<!--<link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">-->
 
-  <script src="form.js"></script>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -65,14 +62,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-<!--</head>-->
-<script src="https://www.nph-belgium.org/ws/scripts/client/cookies.js" type="text/javascript"></script>
-<script src="https://www.nph-belgium.org/ws/scripts/client/functions-new-170606A.js" type="text/javascript"></script>
-
-<script src="https://www.nph-belgium.org/ws/scripts/client/helptips.js" type="text/javascript"></script>
 <script src="//code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js" type="text/javascript"></script>
 <script src="//apis.google.com/js/plusone.js" type="text/javascript">{lang: 'fr'}</script>
@@ -126,13 +115,18 @@ fbq('init', '509269365908464');
 fbq('track', 'PageView');
 </script>
 
+
+</head>
+
+
 <body>
 	<script>
 			adjustOnResize();
 		</script>
 
 	<!--include header ici-->
-<?php include('header.php'); ?>
+<?php include('partials/headerFinal.php'); ?>
+
     <div class="container">
 			<h2>Contact</h2>
 			<p>"Nous ne partagerons jamais vos informations personnelles avec un tiers."</p>
@@ -245,7 +239,7 @@ fbq('track', 'PageView');
 
 
     <!-- le footer est ici -->
-  		<?php include ('footer.php'); ?>
+  		<?php include ('partials/footer2.php'); ?>
 </body>
 
 </html>

@@ -1,10 +1,5 @@
-
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,7 +23,7 @@
 	//////////////////////////////////////////////////////
 	 -->
 
-  	<!-- Facebook and Twitter integration -->
+  	<!-- Facebook and Twitter integration
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -37,7 +32,7 @@
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+	<meta name="twitter:card" content="" />-->
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/favicon.jpg">
@@ -67,14 +62,6 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-<!--</head>-->
-<script src="https://www.nph-belgium.org/ws/scripts/client/cookies.js" type="text/javascript"></script>
-<script src="https://www.nph-belgium.org/ws/scripts/client/functions-new-170606A.js" type="text/javascript"></script>
-
-<script src="https://www.nph-belgium.org/ws/scripts/client/helptips.js" type="text/javascript"></script>
 <script src="//code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
 <script src="//code.jquery.com/ui/1.12.0/jquery-ui.js" type="text/javascript"></script>
 <script src="//apis.google.com/js/plusone.js" type="text/javascript">{lang: 'fr'}</script>
@@ -127,35 +114,18 @@ s.parentNode.insertBefore(t,s)}(window,document,'script',
 fbq('init', '509269365908464');
 fbq('track', 'PageView');
 </script>
-<noscript>
-<img height="1" width="1" src="https://www.facebook.com/tr?id=509269365908464&ev=PageView&noscript=1"/>
-</noscript>
-<!-- End Facebook Pixel Code -->
-<!--<script id="cookieinfo"
-	src="//cookieinfoscript.com/js/cookieinfo.min.js"
-	data-bg="#00468B"
-	data-fg="#FFFFFF"
-	data-link="#F47B39"
-	data-text-align="left"
-	data-close-text="OK"
-	data-message="<font color='#FFFFFF'>Nous utilisons des cookies pour faciliter votre navigation et pour mieux adapter le contenu de notre site à vos besoins et préférences.</font><br>"
-	data-linkmsg="Plus d'information"
-	data-moreinfo="contact/privacy.php">
-</script>-->
+
+
+</head>
+
 
 <body>
-				</td>
-			</tr>
-		</table>
-
-					</table>			</td>
-		</tr>
-	</table>		<script>
+	<script>
 			adjustOnResize();
 		</script>
 
 	<!--include header ici-->
-<?php include('partials/header.php'); ?>
+<?php include('partials/headerFinal.php'); ?>
 
 
 	<table id="wholepage" cellpadding="0" cellspacing="0" width="100%" style="padding-top:95px;">
@@ -231,15 +201,8 @@ fbq('track', 'PageView');
                 </td>
             </tr>
             <tr><td>&nbsp;</td></tr>
-			</table>	<script>
-		function newsLetterGo(pop) {
-			if ( newsletter.email ) newsletter.email.disabled = true;
-			if ( newsletter.nwsbtn ) newsletter.nwsbtn.disabled = true;
-			runletter.location.href = "https://www.nph-belgium.org/ws/include/newsletter-submit.php?host=nph-belgium.org&email=" + newsletter.email.value + "&pop=" + pop;
-		}
-	</script>
+			</table>
 
-	<iframe name="runletter" width="0" height="0" style="display:none"></iframe>
 	<!-- le footer est ici -->
 		<?php include ('partials/footer2.php'); ?>
 
