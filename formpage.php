@@ -127,7 +127,7 @@ fbq('track', 'PageView');
 	<!--include header ici-->
 <?php include('partials/headerFinal.php'); ?>
 
-    <div class="container">
+    <!--<div class="container">
 			<h2>Contact</h2>
 			<p>"Nous ne partagerons jamais vos informations personnelles avec un tiers."</p>
 
@@ -196,7 +196,7 @@ fbq('track', 'PageView');
 				</div>
 				<br id="errorSubject">-->
 
-				<div class="form-group">
+				<!--<div class="form-group">
 					<label for="textareaMessage">Message</label>
 					<textarea name="message" class="form-control" id="textareaMessage" placeholder="Votre message"></textarea>
 				</div>
@@ -235,8 +235,38 @@ fbq('track', 'PageView');
 					</div>
 		</div>
 </form>
+</div>-->
+<div class="container">
+	<div class="row">
+		<div class="col-xl-9 mx-auto">
+			<div class=" text-center rounded" id="forms">
+				<!-- FORMULAIRE  -->
+			 <form class="" action="contact.php" method="post" enctype="multipart/form-data">
+			 <fieldset>
+				 <legend><strong>CONTACT</strong></legend>
+				 <input type="radio" name="gender" value="monsieur"><strong>Monsieur</strong>
+				 <input type="radio" name="gender" value="madame"><strong>Madame</strong><br><br>
+				 <strong>Nom: </strong><?php if(isset($_POST['button'])){echo $errors['nom'];} ?><br><input id="textinput" name="nom" type="text" placeholder="nom" class="form-control input-md"><br>
+				 <strong>Prenom: </strong> <?php if(isset($_POST['button'])){echo $errors['prenom'];} ?><br><input id="textinput" name="prenom" type="text" placeholder="prenom" class="form-control input-md"><br><br>
+				 <strong>Objet:</strong><br><select name="objet" size="1">
+					 <option value="information"><strong>Information</strong></option>
+					 <option value="benevolat"><strong>Benevolat</strong></option>
+					 <option value="donation"><strong>Donation</strong></option>
+					 <option value="autre"><strong>Autre</strong></option>
+				 </select><br><br>
+				 <strong>Message: </strong><?php if(isset($_POST['button'])){echo $errors['message'];} ?><br><textarea class="form-control" id="textarea" name="message" placeholder="message"></textarea><br><br>
+				 <strong>Documents:</strong><br><input id="filebutton" name="image_field" class="input-file" type="file" size="32"><br><br>
+				 <strong>Format de réponse souhaité </strong><input type="radio" name="format" value="html"><strong>HTML</strong>
+				 <input type="radio" name="format" value="texte"><strong>Texte</strong><br><br>
+				 <strong>E-mail: </strong><?php if(isset($_POST['button'])){echo $errors['email'];} ?><br><input id="textinput" name="email" type="text" placeholder="adresse email" class="form-control input-md"><br>
+				 <strong>Mot de passe: </strong><input id="passwordinput" name="password" type="password" placeholder="mot de passe" class="form-control input-md"><br><br>
+				 <button id="singlebutton" name="button" class="btn-default" type="submit"><strong>Contactez-nous</strong></button><br>
+			 </fieldset>
+			 </form>
+			</div>
+		</div>
+	</div>
 </div>
-
 
     <!-- le footer est ici -->
   		<?php include ('partials/footer2.php'); ?>
