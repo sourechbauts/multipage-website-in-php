@@ -1,4 +1,4 @@
-<!--<?php
+<?php
   //Import CLASS PHPMailer
   use PHPMailer\PHPMailer\PHPMailer;
   require 'vendor/autoload.php';
@@ -75,7 +75,7 @@
     $mail->SMTPAuth = true;
     $log = []; // TAB Empty for LOG
     $today = getDate(); // Date moment Message
-
+    }
     // Verif If File Pass exist or not
     if(!file_exists('./partials/passwordGmail.php')) {
       $sanuser = filter_var($_POST['useremail'], FILTER_SANITIZE_EMAIL);
@@ -204,49 +204,5 @@
         errorMsg($id, $message, 'newnode9');
       }
     }
-  }
- ?>-->
- <?php
- // CLASS PHPMailer
-  use PHPMailer\PHPMailer\PHPMailer;
-  require 'vendor/autoload.php';
-  $mail = new PHPMailer;
-  // Import Formulaire
-  $file = DOMDocument::loadHTMLFile('formpage.php');
-  $form = $file->getElementById('formContact');
-  //FUCTION
-  function breakText($name){
-  	global $file;
-  	$suts = $name = $file->createElement('br');
-  	return ${$sauts};
-  }
-  // VERIFICATION DE MOT PASSE
-  if (file_exists("Partials/passwordGmail")) {
-  	include (".Partials/passwordGmail/php");
-  }
-  	else{
-  		$placement = $file->getElementById("firstformelement");
-  		$username = $file->createElement("label","votre adresse Gmail");
-  		$username->setAttribute("form","username");
-  		$usernameInput= $file->createElement("input");
-  		$UFIA = ['type' => "email","id"=>"usermail","name"=>"usermail"];
-  		foreach ($UFIA as $key => $value) {
-  			$usernameInput->setAttribute($key,$value);
-  		}
-  		//Creation d'un password
-  		$passwordForm = $file->createElement('label', 'Entrer votre mot de passe Gmail');
-	    $passwordForm->setAttribute('for', 'gmailpassword');
-	    $passwordFormInput = $file->createElement('input');
-	    $PFIA = ['type' => 'password', 'id' => 'gmailpassword', 'name' => 'gmailpassword'];
-	    foreach ($PFIA as $key => $value) {
-	      $passwordFormInput->setAttribute($key, $value);
-    }
-		    function errorMsg($id, $message, $test){
-		    global $file, $form;
-		    $newnode = $test;
-		    $element = $file->getElementById($id);
-		    $$newnode = $file->createElement('p', $message);
-		    $form->insertBefore(${$newnode}, $element);
-  	}
-    
-?>
+
+ ?>
