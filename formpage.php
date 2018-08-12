@@ -237,20 +237,22 @@ fbq('track', 'PageView');
 </form>
 </div>-->
 <div class="container">
-	<div class="row">
+	<h2>Contact</h2>
+	<p>Nous ne partagerons jamais vos informations personnelles avec un tiers.</p>
+	<!--<div class="row">
 		<div class="col-xl-9 mx-auto">
-			<div class=" text-center rounded" id="forms">
+			<div class=" text-center rounded" id="forms">-->
 				<!-- FORMULAIRE  -->
 			 <form class="" action="contact.php" method="post" enctype="multipart/form-data">
 			 <fieldset>
-				 <legend><strong>CONTACT</strong></legend>
-				 <input type="radio" name="gender" value="monsieur"><strong>Monsieur</strong>
-				 <input type="radio" name="gender" value="madame"><strong>Madame</strong><br><br>
+				 <!--<legend><strong>CONTACT</strong></legend>-->
+				 <input type="radio" name="gender" value="monsieur"><strong>Mr</strong>
+				 <input type="radio" name="gender" value="madame"><strong>Mme</strong><br><br>
 				 <strong>Nom: </strong><?php if(isset($_POST['button'])){echo $errors['nom'];} ?><br><input id="textinput" name="nom" type="text" placeholder="nom" class="form-control input-md"><br>
-				 <strong>Prenom: </strong> <?php if(isset($_POST['button'])){echo $errors['prenom'];} ?><br><input id="textinput" name="prenom" type="text" placeholder="prenom" class="form-control input-md"><br><br>
+				 <strong>Prénom: </strong> <?php if(isset($_POST['button'])){echo $errors['prenom'];} ?><br><input id="textinput" name="prenom" type="text" placeholder="prénom" class="form-control input-md"><br><br>
 				 <strong>Objet:</strong><br><select name="objet" size="1">
 					 <option value="information"><strong>Information</strong></option>
-					 <option value="benevolat"><strong>Benevolat</strong></option>
+					 <option value="benevolat"><strong>Bénévolat</strong></option>
 					 <option value="donation"><strong>Donation</strong></option>
 					 <option value="autre"><strong>Autre</strong></option>
 				 </select><br><br>
@@ -263,9 +265,9 @@ fbq('track', 'PageView');
 				 <button id="singlebutton" name="button" class="btn-default" type="submit"><strong>Contactez-nous</strong></button><br>
 			 </fieldset>
 			 </form>
-			</div>
+			<!--</div>
 		</div>
-	</div>
+	</div>-->
 </div>
 
     <!-- le footer est ici -->
